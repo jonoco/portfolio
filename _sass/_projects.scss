@@ -1,0 +1,100 @@
+.projects {
+  h1 {
+    color: $color-d;
+    font-size: 3.3rem;
+    margin-bottom: 42px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 22px 0;
+  }
+
+  .project-card {
+    border-left: 3px solid $color-a;
+    border-radius: 3px;
+    color: $color-d;
+    margin: 16px 0;
+    padding-left: 18px;
+    width: 700px;
+  }
+
+  .head {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title {
+    color: $color-d;
+    font-size: 2.3rem;
+    flex: 3 0 auto;
+    &:hover {
+      color: $accent-a;
+    }
+  }
+
+  .bracket {
+    position: relative;
+    top: .2rem;
+    font-size: 1.8rem;
+    color: $color-a;
+  }
+
+  .tags {
+    .swift {
+      background: hsla(147, 37, 26, 1);
+    }
+    .cpp {
+      background: hsla(207, 37, 26, 1);
+    }
+
+    .csharp {
+      background: hsla(227, 37, 26, 1);
+    }
+
+    .python {
+      background: hsla(187, 37, 26, 1);
+    }
+
+    .html {
+      background: hsla(267, 37, 26, 1);
+    }
+
+    .javascript {
+      background: hsla(287, 37, 26, 1);
+    }
+
+    .react {
+      background: hsla(307, 37, 26, 1);
+    }
+
+    .unity {
+      background: hsla(167, 37, 26, 1);
+    }
+
+    .machine-learning {
+      background: hsla(107, 37, 26, 1);
+    }
+  }
+
+  .body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .summary {
+    color: #bbb;
+  }
+
+  .date {
+    font-size: 4rem;
+    margin-left: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: $color-c;
+  }
+}

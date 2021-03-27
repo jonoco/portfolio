@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Joshua's Portfolio</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
+  <link rel="icon" href="{{ site.baseurl }}/assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="project">
+    {% include navigation.html %}
+
+    <main>
+      <div class="title">
+        <h1>{{ page.title }}</h1>
+      </div>
+
+      <span class="links">
+        {% if page.github %}
+          <a href="{{ page.github }}">
+            <span class="button">Github</span>
+          </a>
+        {% endif %}
+        {% if page.host %}
+          <a href="{{ page.host }}">
+            <span class="button">Hosted</span>
+          </a>
+        {% endif %}
+      </span>
+
+      <div class="content">
+        {{ content }}
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="{{ site.baseurl }}/assets/js/script.js"></script>
+</body>
+</html>

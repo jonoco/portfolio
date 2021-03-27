@@ -1,0 +1,47 @@
+.project {
+  main {
+    align-items: center;
+    color: $color-d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 22px;
+  }
+
+  img {
+    max-width: 600px;
+    max-height: 600px;
+
+  }
+
+  h1 {
+    color: $accent-a;
+    font-size: 3.3rem;
+  }
+
+  .title {
+    width: 80vw;
+    flex: 3 0 auto;
+  }
+
+  .content {
+    width: 80vw;
+  }
+
+  .links {
+    width: 80vw;
+    margin: 42px 0;
+
+    .button {
+      border: 1px solid $color-a;
+      background: $color-e;
+      color: #ccc;
+      margin-right: 6px;
+
+      &:hover {
+        border: 1px solid $accent-b;
+        color: #fff;
+      }
+    }
+  }
+}

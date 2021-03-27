@@ -1,0 +1,45 @@
+.home {
+  background: $color-b;
+  height: 100vh;
+
+  h1 {
+    color: $color-d;
+    font-size: 3.5em;
+    margin: 10px 0;
+  }
+
+  main {
+    max-width: 500px;
+    margin-left: 15%;
+    margin-top: 15%;
+  }
+
+  .name {
+    color: $Winter-Sunset-2-rgba;
+    font-size: 2em;
+  }
+
+  .controls {
+    margin-top: 38px;
+  }
+
+  .portfolio-btn {
+    margin-right: 6px;
+    background: $accent-a;
+    color: $color-a;
+    &:hover {
+      background: $color-a;
+      color: $accent-a;
+    }
+  }
+
+  .contact-btn {
+    border: 1px solid $color-a;
+    background: $color-e;
+    color: #ccc;
+    &:hover {
+      border: 1px solid $accent-b;
+      color: #fff;
+    }
+  }
+}

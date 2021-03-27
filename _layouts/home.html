@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Joshua's Portfolio</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
+  <link rel="icon" href="{{ site.baseurl }}/assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="home">
+    {% include navigation.html %}
+
+    <main>
+      <span class="name">JOSHUA COX</span>
+      <h1>Software Engineer</h1>
+      <h1>& Designer</h1>
+      <div class="controls">
+        <a href="/projects">
+          <span class="button portfolio-btn">View My Work</span>
+        </a>
+        <a href="/contact">
+          <span class="button contact-btn">Contact Me</span>
+        </a>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="{{ site.baseurl }}/assets/js/script.js"></script>
+</body>
+</html>

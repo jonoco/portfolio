@@ -1,0 +1,7 @@
+<nav class="navigation">
+  {% for link in site.data.navigation %}
+    <a href="{{ site.url }}/{{ link.link }}">
+      <div class="link">{{ link.name }}</div>
+    </a>
+  {% endfor %}
+</nav>

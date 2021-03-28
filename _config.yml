@@ -22,8 +22,9 @@ title: Portfolio
 email: joshuancox@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Joshua Cox Software Engineer Portfolio
+
 baseurl: "/portfolio" # the subpath of your site, e.g. /blog
-url: "https://jonoco.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jonoco.github.io" # e.g. http://example.com
 
 # Build settings
 theme:
@@ -49,6 +50,9 @@ collections:
 exclude:
   - dev
   - build
+  - CNAME
+  - new_post
+  - new_project
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

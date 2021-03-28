@@ -1,0 +1,25 @@
+#!/bin/bash
+
+if [ $# -lt 1 ] ; then
+  echo "Usage: new_project title [YYYY-MM-DD]"
+  exit 1
+fi
+
+if [ $# -eq 4 ] ; then
+  timestamp="$2-$3-$4"
+else
+  timestamp=$(date "+%Y-%m-%d")
+fi
+
+dir="_projects"
+filename="$dir/${1// /_}.md"
+
+echo -e "---\nlayout: project"               >  $filename
+echo -e "title: $1"                          >> $filename
+echo -e "date: $timestamp 00:00:00 -0700"    >> $filename
+echo -e "publish: true"                      >> $filename
+echo -e "categories: "                       >> $filename
+echo -e "tags: "                             >> $filename
+echo -e "summary: "                          >> $filename
+echo -e "links: "                            >> $filename
+echo -e "---"                                >> $filename

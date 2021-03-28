@@ -6,6 +6,14 @@ publish: true
 categories: 
 tags: c++ opengl
 summary: Voxel model editor
-github: 
-host: 
+links: 
+    - name: Github
+      link: https://github.com/jonoco/voxel-editor
 ---
+## Voxel drawing desktop app written in C++ with OpenGL.
+
+{% include image-card.html 
+    src="/assets/images/voxel_0.gif"
+    alt="voxel 0" 
+    summary="Voxels can be created in multiple colors, with an adjustable cursor size." 
+%}

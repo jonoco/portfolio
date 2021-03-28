@@ -6,6 +6,7 @@ publish: true
 categories: 
 tags: javascript ci npm
 summary: npm microlibrary to generate Starwars names
-github: https://github.com/jonoco/starwars-names
-host: 
+links:
+    - name: Github
+      link: https://github.com/jonoco/starwars-names
 ---

@@ -6,6 +6,22 @@ publish: true
 categories: 
 tags: angular javascript
 summary: Chatting web app
-github: https://github.com/jonoco/chirp
-host: https://chirpapp.firebaseapp.com/
+links:
+    - name: Github
+      link: https://github.com/jonoco/chirp
+    - name: Hosted
+      link: https://chirpapp.firebaseapp.com/
 ---
+## Chirp is a chatting web app, it communicates over web sockets using Firebase.
+
+{% include image-card.html 
+    src="/assets/images/chirp_0.png"
+    alt="chirp menu" 
+    summary="New chat rooms can be created, or existing ones can be joined." 
+%}
+
+{% include image-card.html 
+    src="/assets/images/chirp_1.png"
+    alt="chirp menu" 
+    summary="Messages are delivered over web sockets with Firebase." 
+%}

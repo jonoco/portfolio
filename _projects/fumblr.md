@@ -6,7 +6,34 @@ publish: true
 categories: 
 tags: python flask sqlalchemy
 summary: fumblr is a social media site
-github: 
-host: 
+links: 
+    - name: Github
+      link: https://github.com/jonoco/fumblr
+    - name: Hosted
+      link: https://fumblr.herokuapp.com/
 ---
-fumblr is a social media site.
+## fumblr is a social media site based on tumblr.
+
+{% include image-card.html 
+    src="/assets/images/fumblr_4.png"
+    alt="fumblr 4" 
+    summary="fumblr supports SSO using Google and Twitter." 
+%}
+
+{% include image-card.html 
+    src="/assets/images/fumblr_0.png"
+    alt="fumblr 0" 
+    summary="Users can create posts, reblog, like or comment on them." 
+%}
+
+{% include image-card.html 
+    src="/assets/images/fumblr_1.png"
+    alt="fumblr 1" 
+    summary="The app uses built-in admin interface to manage it." 
+%}
+
+{% include image-card.html 
+    src="/assets/images/fumblr_2.png"
+    alt="fumblr 2" 
+    summary="Users can post multiple images with drag and drop support, and include tags and descriptions." 
+%}

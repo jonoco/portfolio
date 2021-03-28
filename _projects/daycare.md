@@ -6,6 +6,10 @@ publish: true
 categories: 
 tags: html
 summary: Daycare brochure website
-github: 
-host: 
+links: 
+    - name: Github
+      link: https://github.com/jonoco/daycare
+    - name: Hosted
+      link: http://jonoco.github.io/daycare/
 ---
+A brochure website for the Peekaboo Daycare center.

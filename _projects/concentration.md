@@ -6,6 +6,16 @@ publish: true
 categories: 
 tags: react
 summary: Card matching game
-github: 
-host: 
+links: 
+    - name: Github
+      link: https://github.com/jonoco/concentration
+    - name: Hosted
+      link: https://congame.surge.sh/
 ---
+## Concentration is a card matching game built with react.
+
+{% include image-card.html 
+    src="/assets/images/concentration_0.png"
+    alt="concentration" 
+    summary="Two cards are selected at a time, if a match is found they are eliminated." 
+%}

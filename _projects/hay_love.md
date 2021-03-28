@@ -6,7 +6,16 @@ publish: true
 categories: 
 tags: html horses
 summary: Horse dating website.
-github: https://github.com/jonoco/haylove
-host: http://haylove.herokuapp.com/
+links:
+    - name: Github
+      link: https://github.com/jonoco/haylove
+    - name: Hosted
+      link: http://haylove.herokuapp.com/
 ---
-Horse dating website.
+## A satirical dating website for horses.
+
+{% include image-card.html 
+    src="/assets/images/haylove_0.png"
+    alt="haylove 0" 
+    summary="Users can swipe through a selection of pure breds." 
+%}

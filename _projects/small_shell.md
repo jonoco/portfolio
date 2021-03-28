@@ -6,6 +6,8 @@ publish: true
 categories: 
 tags: c
 summary: A simple shell program
-github: https://github.com/jonoco/small-shell
-host: 
+links:
+    - name: Github
+      link: https://github.com/jonoco/small-shell
 ---
+## SmallShell is a basic command processor.

@@ -6,8 +6,7 @@ publish: true
 categories: 
 tags: python
 summary: Martial arts tournament management
-github: 
-host: 
+links: 
 ---
 Overseer is a tool to manage martial arts tournament participants.
 

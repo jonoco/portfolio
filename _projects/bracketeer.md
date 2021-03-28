@@ -6,10 +6,9 @@ publish: true
 categories: 
 tags: python
 summary: Bracketing management
-github: 
-host: 
+links: 
 ---
-Bracketeer manages bracketing for martial arts tournaments.
+## Bracketeer manages bracketing for martial arts tournaments.
 
 ![menu](/assets/images/bracketeer_menu.png)
 ![bracketing screen](/assets/images/bracketeer_screen_0.png)

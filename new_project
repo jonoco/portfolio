@@ -21,6 +21,5 @@ echo -e "publish: true"                      >> $filename
 echo -e "categories: "                       >> $filename
 echo -e "tags: "                             >> $filename
 echo -e "summary: "                          >> $filename
-echo -e "github: "                           >> $filename
-echo -e "host: "                             >> $filename
+echo -e "links: "                            >> $filename
 echo -e "---"                                >> $filename

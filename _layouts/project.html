@@ -16,17 +16,12 @@
       </div>
 
       <span class="links">
-        {% if page.github %}
-          <a href="{{ page.github }}">
-            <span class="button">Github</span>
+        {% for link in page.links %}
+          <a href="{{ link.link }}">
+            <span class="button">{{ link.name }}</span>
           </a>
-        {% endif %}
-        {% if page.host %}
-          <a href="{{ page.host }}">
-            <span class="button">Hosted</span>
-          </a>
-        {% endif %}
-      </span>
+        {% endfor %}
+      </span> <!-- links -->
 
       <div class="content">
         {{ content }}

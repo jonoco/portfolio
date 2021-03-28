@@ -6,6 +6,10 @@ publish: true
 categories: 
 tags: html
 summary: A showcase of apples
-github: 
-host: 
+links: 
+    - name: Github
+      link: https://github.com/jonoco/apples
+    - name: Hosted
+      link: http://jonoco.github.io/apples/
 ---
+## A satire site showing responsive-adaptive behavior.

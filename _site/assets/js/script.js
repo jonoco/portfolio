@@ -21,6 +21,6 @@ function main() {
 }
 
 document.fonts.ready.then(() => {
-  main();
+  // main();
 });
 

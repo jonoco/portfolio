@@ -12,7 +12,7 @@
 /* Base */
 html { background: #121014; }
 
-body { display: flex; flex-direction: column; font-family: 'Montserrat', sans-serif; margin: 0; padding: 0; opacity: 0; }
+body { display: flex; flex-direction: column; font-family: 'Montserrat', sans-serif; margin: 0; padding: 0; }
 
 a { text-decoration: none; transition: all .1s ease; }
 

@@ -7,11 +7,30 @@
   <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <div class="{{ page.class }}">
-    {% include navigation.html %}
+  <div class="">
+    <nav class="navigation">
+  
+    <a href="/">
+      <div class="link">Home</div>
+    </a>
+  
+    <a href="/about">
+      <div class="link">About</div>
+    </a>
+  
+    <a href="/projects">
+      <div class="link">Projects</div>
+    </a>
+  
+    <a href="/contact">
+      <div class="link">Contact</div>
+    </a>
+  
+</nav>
+
 
     <main>
-      {{ content }}
+      
     </main>
   </div>
 

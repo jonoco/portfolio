@@ -12,7 +12,7 @@
 /* Base */
 html { background: #121014; }
 
-body { display: flex; flex-direction: column; font-family: 'Montserrat', sans-serif; margin: 0; padding: 0; }
+body { display: flex; flex-direction: column; font-family: 'Montserrat', sans-serif; margin: 0; padding: 0; opacity: 0; }
 
 a { text-decoration: none; transition: all .1s ease; }
 
@@ -21,6 +21,8 @@ h1 { break-after: avoid; font-family: 'Raleway', sans-serif; font-size: 30px; ma
 h2 { break-after: avoid; font-size: 22px; }
 
 h3 { font-size: 16px; color: #333; }
+
+.loaded { transition: all .3s ease; opacity: 1; }
 
 /* Components */
 .button { border-radius: 3px; border: none; font-family: 'Montserrat', sans-serif; font-size: 1.1rem; padding: 18px 26px; transition: all .2s ease; }

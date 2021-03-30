@@ -1,13 +1,4 @@
 .project {
-  main {
-    align-items: center;
-    color: $color-d;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 22px;
-  }
-
   img {
     max-width: 600px;
     max-height: 600px;
@@ -16,6 +7,15 @@
   h1 {
     color: $accent-a;
     font-size: 3.5rem;
+  }
+
+  main {
+    align-items: center;
+    color: $color-d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 22px;
   }
 
   .title {

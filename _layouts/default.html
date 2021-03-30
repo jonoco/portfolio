@@ -7,7 +7,9 @@
   <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <div class="default">
+  <div class="{{ page.class }}">
+    {% include navigation.html %}
+
     <main>
       {{ content }}
     </main>

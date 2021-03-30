@@ -1,3 +1,4 @@
 ---
 layout: projects
+class: projects
 ---

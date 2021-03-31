@@ -1,6 +1,7 @@
 .home {
-  background: $color-b;
+  // background: $color-b;
   height: 100vh;
+  position: relative;
 
   h1 {
     color: $color-d;
@@ -42,6 +43,36 @@
     &:hover {
       border: 1px solid $accent-b;
       color: #fff;
+    }
+  }
+
+  .portrait {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    z-index: -5;
+    overflow: hidden;
+
+    .scrim {
+      position: absolute;
+      content: '';
+      background: rgba(0,0,0,0.5);
+      width: inherit;
+      height: inherit;
+    }
+
+    img {
+      margin-top: 15%;
+      position: absolute;
+      // width: 50%;
+      height: 70%;
+      z-index: -1;
+      filter: grayscale(.2) blur(1px) opacity(.7);
+
     }
   }
 }

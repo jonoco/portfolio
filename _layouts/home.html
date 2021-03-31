@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Joshua's Portfolio</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="{{ page.class }}">
+    {% include navigation.html %}
+
+    {{ content }}
+  </div>
+
+  <script type="module" src="/assets/js/script.js"></script>
+</body>
+</html>

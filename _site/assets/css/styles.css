@@ -69,7 +69,7 @@ h3 { font-size: 16px; color: #333; }
 
 .project .links .button:hover { border: 1px solid #f2994b; color: #fff; }
 
-.home { background: #121014; height: 100vh; }
+.home { height: 100vh; position: relative; }
 
 .home h1 { color: #e2ddd4; font-size: 3.5em; margin: 10px 0; }
 
@@ -86,6 +86,12 @@ h3 { font-size: 16px; color: #333; }
 .home .contact-btn { border: 1px solid #29445b; background: #0b0c10; color: #ccc; }
 
 .home .contact-btn:hover { border: 1px solid #f2994b; color: #fff; }
+
+.home .portrait { position: absolute; display: flex; justify-content: flex-end; height: 100vh; width: 100vw; top: 0; right: 0; z-index: -5; overflow: hidden; }
+
+.home .portrait .scrim { position: absolute; content: ''; background: rgba(0, 0, 0, 0.5); width: inherit; height: inherit; }
+
+.home .portrait img { margin-top: 15%; position: absolute; height: 70%; z-index: -1; filter: grayscale(0.2) blur(1px) opacity(0.7); }
 
 .projects h1 { color: #e2ddd4; font-size: 3.3rem; margin-bottom: 42px; }
 

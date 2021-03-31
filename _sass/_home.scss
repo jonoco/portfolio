@@ -9,9 +9,11 @@
   }
 
   main {
+    position: relative;
     max-width: 500px;
     margin-left: 15%;
     margin-top: 15%;
+    z-index: 1;
   }
 
   .name {

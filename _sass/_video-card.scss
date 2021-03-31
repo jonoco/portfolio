@@ -1,0 +1,28 @@
+.video-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80vw;
+  margin: 32px 0;
+
+  video {
+    // width: 600px;
+    max-width: 600px;
+    max-height: 600px;
+  }
+
+  .brace {
+    color: $color-a;
+    margin-left: 22px;
+    font-size: 10rem;
+  }
+
+  .summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 22px;
+    width: 500px;
+  }
+}

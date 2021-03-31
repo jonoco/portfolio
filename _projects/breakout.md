@@ -18,14 +18,23 @@ The game was created with a three-person team.
 
 The game's AI was trained to play using machine learning through the ML-Agents library, which provides an interface between Unity and Tensorflow.
 
-{% include image-card.html 
-    src="/assets/images/breakout_0.png"
-    alt="breakout 0" 
-    summary="I created the interfaces, creating the assets in Blender and Adobe XD." 
+{% include video-card.html 
+    src="/assets/videos/breakout_title.mp4"
+    summary="A title screen video for the game was created in Blender." 
 %}
 
-{% include image-card.html 
-    src="/assets/images/breakout_1.png"
-    alt="breakout 1" 
-    summary="" 
+{% include video-card.html 
+    src="/assets/videos/breakout_menu.mp4"
+    summary="The interfaces were created with Adobe XD and Blender." 
 %}
+
+{% include video-card.html 
+    src="/assets/videos/breakout_solo.mp4"
+    summary="Players can play single player, multiplayer against the AI, or watch AI play solo." 
+%}
+
+{% include video-card.html 
+    src="/assets/videos/breakout_train.mp4"
+    summary="The AI was trained in parallel instances to increase training speed." 
+%}
+

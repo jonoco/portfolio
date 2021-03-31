@@ -6,25 +6,27 @@ class: projects
 
 {% assign projects = site.projects | where: "publish", true | sort: "date" | reverse %}
 {% for project in projects %}
-  <div class="project-card">
-    <div class="head">
-      <a href="{{ project.url }}" class="title">
-        <span>{{ project.title }}</span>
-      </a>
+  <a href="{{ project.url }}">
+    <div class="project-card">
+      <div class="head">
+        <span class="title">
+          <span>{{ project.title }}</span>
+        </span>
 
-      <div class="tags">
-        <span class="bracket">{ </span>
-        {% for tag in project.tags %}
-          {% assign tagClass = tag | replace: "+", "p" | replace: "#", "sharp" %}
-          <span class="tag {{ tagClass }}">{{ tag }} </span>
-        {% endfor %}
-        <span class="bracket"> }</span>
-      </div> <!-- tags -->
-    </div> <!-- head -->
-    <div class="body">
-      <p class="summary">{{ project.summary }}</p>
+        <div class="tags">
+          <span class="bracket">{ </span>
+          {% for tag in project.tags %}
+            {% assign tagClass = tag | replace: "+", "p" | replace: "#", "sharp" %}
+            <span class="tag {{ tagClass }}">{{ tag }} </span>
+          {% endfor %}
+          <span class="bracket"> }</span>
+        </div> <!-- tags -->
+      </div> <!-- head -->
+      <div class="body">
+        <p class="summary">{{ project.summary }}</p>
 
-      <span class="date">{{ project.date | date: "%Y" }}</span>
-    </div> <!-- body -->
-  </div> <!-- project-card -->
+        <span class="date">{{ project.date | date: "%Y" }}</span>
+      </div> <!-- body -->
+    </div> <!-- project-card -->
+  </a>
 {% endfor %}

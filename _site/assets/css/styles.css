@@ -23,6 +23,8 @@ h2 { break-after: avoid; font-size: 22px; }
 h3 { font-size: 16px; color: #333; }
 
 /* Components */
+.block { position: fixed; background: rgba(50, 50, 50, 0.5); width: 200px; height: 60%; margin-top: 15%; margin-left: 20%; }
+
 .button { border-radius: 3px; border: none; font-family: 'Montserrat', sans-serif; font-size: 1.1rem; padding: 18px 26px; transition: all .2s ease; }
 
 .button:hover { background: #0b0c10; color: #e2ddd4; }
@@ -71,7 +73,7 @@ h3 { font-size: 16px; color: #333; }
 
 .home h1 { color: #e2ddd4; font-size: 3.5em; margin: 10px 0; }
 
-.home main { max-width: 500px; margin-left: 15%; margin-top: 15%; }
+.home main { position: relative; max-width: 500px; margin-left: 15%; margin-top: 15%; z-index: 1; }
 
 .home .name { color: #8595a5; font-size: 2em; }
 
@@ -91,11 +93,13 @@ h3 { font-size: 16px; color: #333; }
 
 .projects .project-card { border-left: 3px solid #29445b; border-radius: 3px; color: #e2ddd4; margin: 16px 0; padding-left: 18px; width: 700px; }
 
+.projects .project-card:hover .date { color: #e2ddd4; }
+
+.projects .project-card:hover .title { color: #f2bf80; }
+
 .projects .head { align-items: center; display: flex; justify-content: space-between; }
 
 .projects .title { color: #e2ddd4; font-size: 2.3rem; flex: 3 0 auto; }
-
-.projects .title:hover { color: #f2bf80; }
 
 .projects .bracket { position: relative; top: .2rem; font-size: 1.8rem; color: #29445b; }
 
@@ -121,7 +125,7 @@ h3 { font-size: 16px; color: #333; }
 
 .projects .summary { color: #bbb; }
 
-.projects .date { font-size: 4rem; margin-left: 16px; font-family: 'Montserrat', sans-serif; font-weight: 600; color: #1b2734; }
+.projects .date { font-size: 4rem; margin-left: 16px; font-family: 'Montserrat', sans-serif; font-weight: 600; color: #1b2734; transition: all .2s ease; }
 
 /* Includes */
 .navigation { display: flex; justify-content: flex-end; }
@@ -155,6 +159,14 @@ h3 { font-size: 16px; color: #333; }
 .image-card .brace { color: #29445b; margin-left: 22px; font-size: 10rem; }
 
 .image-card .summary { display: flex; flex-direction: column; justify-content: center; margin-left: 22px; width: 500px; }
+
+.video-card { display: flex; flex-direction: row; justify-content: space-between; align-items: center; max-width: 80vw; margin: 32px 0; }
+
+.video-card video { max-width: 600px; max-height: 600px; }
+
+.video-card .brace { color: #29445b; margin-left: 22px; font-size: 10rem; }
+
+.video-card .summary { display: flex; flex-direction: column; justify-content: center; margin-left: 22px; width: 500px; }
 
 /* Pages */
 

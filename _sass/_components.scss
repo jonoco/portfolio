@@ -1,3 +1,13 @@
+.block {
+  position: fixed;
+  background: rgba(50,50,50,.5);
+  width: 200px;
+  height: 60%;
+  margin-top: 15%;
+  margin-left: 20%;
+  // transform: rotate(120deg);
+}
+
 .button {
   border-radius: 3px;
   border: none;

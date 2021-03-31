@@ -19,6 +19,15 @@
     margin: 16px 0;
     padding-left: 18px;
     width: 700px;
+
+    &:hover {
+      .date {
+        color: $color-d;
+      }
+      .title {
+        color: $accent-a;
+      }
+    }
   }
 
   .head {
@@ -31,9 +40,6 @@
     color: $color-d;
     font-size: 2.3rem;
     flex: 3 0 auto;
-    &:hover {
-      color: $accent-a;
-    }
   }
 
   .bracket {
@@ -96,5 +102,6 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: $color-c;
+    transition: all .2s ease;
   }
 }

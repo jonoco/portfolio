@@ -12,7 +12,7 @@
     margin: 10px 0;
   }
 
-  .main {
+  main {
     flex: 3;
   }
 
@@ -50,8 +50,7 @@
   }
 
   .controls {
-    margin: 38px 10%;
-    // width: 100px;
+    margin: 0 10%;
 
     .btn {
       transition: all .15s ease;
@@ -199,6 +198,17 @@
       z-index: -1;
       filter: grayscale(.2) blur(1px) opacity(.7);
 
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .home {
+    flex-direction: column;
+
+    aside {
+      flex: 2;
+      overflow-y: visible;
     }
   }
 }

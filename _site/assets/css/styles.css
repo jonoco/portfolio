@@ -111,6 +111,8 @@ h3 { font-size: 16px; color: #333; }
 
 .home .project-card:hover { opacity: 1; }
 
+.home .project-card:hover .title { color: #f2bf80; }
+
 .home .project-card:hover .date { color: #272727; }
 
 .home .portfolio-btn { margin-right: 6px; background: #f2bf80; color: #29445b; }

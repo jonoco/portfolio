@@ -143,6 +143,9 @@
     &:hover {
       opacity: 1;
 
+      .title {
+        color: $accent-a;
+      }
       .date {
         color: rgba(39, 39, 39, 1);
       }

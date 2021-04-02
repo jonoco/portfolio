@@ -156,21 +156,21 @@ h3 { font-size: 16px; color: #333; }
 
 #procedures .procedure .receives, #procedures .procedure .returns { margin: 0 0 2px 16px; }
 
-.image-card { display: flex; flex-direction: row; justify-content: space-between; align-items: center; max-width: 80vw; margin: 32px 0; }
+.image-card { display: flex; flex-direction: row; justify-content: space-between; align-items: center; max-width: 80vw; margin: 32px 0 48px 0; }
 
 .image-card img { max-width: 600px; max-height: 600px; }
 
-.image-card .brace { color: #29445b; margin-left: 22px; font-size: 10rem; }
+.image-card .summary { border-bottom: 1px solid #333; border-left: 1px solid #333; display: flex; flex-direction: column; justify-content: center; margin-left: 22px; padding: 20px; width: 500px; }
 
-.image-card .summary { display: flex; flex-direction: column; justify-content: center; margin-left: 22px; width: 500px; }
+@media (max-width: 800px) { .image-card { flex-direction: column; margin: 0; } }
 
-.video-card { display: flex; flex-direction: row; justify-content: space-between; align-items: center; max-width: 80vw; margin: 32px 0; }
+.video-card { display: flex; flex-direction: row; justify-content: space-between; align-items: center; max-width: 80vw; margin: 32px 0 48px 0; }
 
 .video-card video { max-width: 600px; max-height: 600px; }
 
-.video-card .brace { color: #29445b; margin-left: 22px; font-size: 10rem; }
+.video-card .summary { border-bottom: 1px solid #333; border-left: 1px solid #333; display: flex; flex-direction: column; justify-content: center; margin-left: 22px; padding: 20px; width: 500px; }
 
-.video-card .summary { display: flex; flex-direction: column; justify-content: center; margin-left: 22px; width: 500px; }
+@media (max-width: 800px) { .video-card { flex-direction: column; margin: 0; } }
 
 /* Pages */
 

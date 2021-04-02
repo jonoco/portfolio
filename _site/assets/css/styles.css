@@ -89,7 +89,7 @@ h3 { font-size: 16px; color: #333; }
 
 .home .controls .btn i { width: 25px; height: 25px; background-size: contain; }
 
-.home .controls .btn span { color: #eee; margin-left: 16px; transition: inherit; }
+.home .controls .btn span { color: #eee; margin-left: 16px; transition: inherit; transition: all .15s ease; }
 
 .home .controls .btn:hover span { color: #f2bf80; margin-left: 22px; }
 
@@ -103,11 +103,11 @@ h3 { font-size: 16px; color: #333; }
 
 .home .project-card .body { margin: 15px 0 15px 30px; display: flex; position: absolute; flex-direction: column; justify-content: space-between; z-index: 5; }
 
-.home .project-card .title { font-size: 2rem; margin: 12px 0; }
+.home .project-card .title { font-size: 2rem; margin: 12px 0; transition: all .15s ease; }
 
 .home .project-card .summary { font-size: 1rem; margin: 0; color: #999; }
 
-.home .project-card .date { color: #1e1e1e; font-size: 8rem; font-weight: 600; margin: 0 6px; position: absolute; right: 0; top: 0; z-index: 0; }
+.home .project-card .date { color: #1e1e1e; font-size: 8rem; font-weight: 600; margin: 0 6px; position: absolute; right: 0; top: 0; z-index: 0; transition: all .15s ease; }
 
 .home .project-card:hover { opacity: 1; }
 

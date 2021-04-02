@@ -69,6 +69,7 @@
         color: #eee;
         margin-left: 16px;
         transition: inherit;
+        transition: all .15s ease;
       }
 
       &:hover {
@@ -120,6 +121,7 @@
     .title {
       font-size: 2rem;
       margin: 12px 0;
+      transition: all .15s ease;
     }
 
     .summary {
@@ -137,6 +139,7 @@
       right: 0;
       top: 0;
       z-index: 0;
+      transition: all .15s ease;
     }
 
     &:hover {
@@ -193,7 +196,6 @@
     img {
       margin-top: 15%;
       position: absolute;
-      // width: 50%;
       height: 70%;
       z-index: -1;
       filter: grayscale(.2) blur(1px) opacity(.7);

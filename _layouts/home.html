@@ -7,11 +7,55 @@
   <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <div class="{{ page.class }}">
-    {% include navigation.html %}
+  <div class="home">
+    <div class="top-bar"></div>
+    <div class="main">
+      <!-- bio and links -->
+      <div class="bio">
+        <span class="hello">- Hello</span>
+        <h1>I'm Joshua Cox.</h1>
+        <p>Software Engineer recently graduated from Oregon State University. I love taking new challenges and learning the skills to tackle them, whether full-stack web apps or embedded Arduino programs.</p>
+      </div> <!-- bio -->
 
-    {{ content }}
-  </div>
+      <div class="controls">
+        <a href="/" class="btn">
+          <i class="github-icon"></i>
+          <span>Github</span>
+        </a>
+        <a href="/" class="btn">
+          <i class="linkedin-icon"></i>
+          <span>Linkedin</span>
+        </a>
+      </div> <!-- controls -->
+    </div>
+    <aside>
+      <!-- scroll list of projects -->
+      <div class="projects">
+        {% assign projects = site.projects | where: "publish", true | sort: "date" | reverse %}
+        {% for project in projects %}
+        <div class="project">
+          <a href="{{ project.url }}">
+            <div class="project-card">
+              <p class="date">{{ project.date | date: "%Y" }}</p>
+              <div class="body">
+                <div class="tags">
+                {% for tag in project.tags %}
+                  {% assign tagClass = tag | replace: "+", "p" | replace: "#", "sharp" %}
+                  <span class="tag {{ tagClass }}">{{ tag | upcase }} </span>
+                {% endfor %}
+                </div> <!-- tags -->
+
+                <p class="title">{{ project.title }}</p>
+                <p class="summary">{{ project.summary }}</p>
+              </div> <!-- body -->
+
+            </div> <!-- project-card -->
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </aside>
+  </div> <!-- home -->
 
   <script type="module" src="/assets/js/script.js"></script>
 </body>

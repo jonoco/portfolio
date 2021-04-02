@@ -2,6 +2,9 @@
   // background: $color-b;
   height: 100vh;
   position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
   h1 {
     color: $color-d;
@@ -9,12 +12,36 @@
     margin: 10px 0;
   }
 
-  main {
-    position: relative;
-    max-width: 500px;
-    margin-left: 15%;
-    margin-top: 15%;
-    z-index: 1;
+  .main {
+    flex: 3;
+  }
+
+  aside {
+    flex: 2;
+    overflow-y: scroll;
+  }
+
+  .top-bar {
+    width: 100vw;
+    height: 15px;
+    position: absolute;
+    background: #000;
+    z-index: 10;
+    box-shadow:
+      0 1.4px 2.2px rgba(0, 0, 0, 0.281),
+      0 3.3px 5.3px rgba(0, 0, 0, 0.404),
+      0 6.3px 10px rgba(0, 0, 0, 0.5),
+      0 11.2px 17.9px rgba(0, 0, 0, 0.596),
+      0 20.9px 33.4px rgba(0, 0, 0, 0.719),
+      0 50px 80px rgba(0, 0, 0, 1)
+    ;
+
+  }
+
+  .bio {
+    color: #aaa;
+    margin: 10%;
+    max-width: 600px;
   }
 
   .name {
@@ -23,7 +50,103 @@
   }
 
   .controls {
-    margin-top: 38px;
+    margin: 38px 10%;
+    // width: 100px;
+
+    .btn {
+      transition: all .15s ease;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 20px 0;
+
+      i {
+        width: 25px;
+        height: 25px;
+        background-size: contain;
+      }
+
+      span {
+        color: #eee;
+        margin-left: 16px;
+        transition: inherit;
+      }
+
+      &:hover {
+        span {
+          color: $accent-a;
+          margin-left: 22px;
+        }
+      }
+    }
+
+    .github-icon {
+      background-image: url("/assets/icons/github-icon.png");
+    }
+    .linkedin-icon {
+      background-image: url("/assets/icons/linkedin-icon.png");
+    }
+  }
+
+  .projects {
+    margin-top: 10%;
+  }
+
+  .project-card {
+    background: rgba(30, 30, 30, 1);
+    color: #eee;
+    margin-bottom: 10px;
+    min-height: 160px;
+    position: relative;
+    transition: all .15s ease;
+    opacity: .7;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .body {
+      margin: 15px 0 15px 30px;
+      display: flex;
+      position: absolute;
+      flex-direction: column;
+      justify-content: space-between;
+      z-index: 5;
+    }
+
+    .tags {
+
+    }
+
+    .title {
+      font-size: 2rem;
+      margin: 12px 0;
+    }
+
+    .summary {
+      font-size: 1rem;
+      margin: 0;
+      color: #999;
+    }
+
+    .date {
+      color:  rgba(30, 30, 30, 1);
+      font-size: 8rem;
+      font-weight: 600;
+      margin: 0 6px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 0;
+    }
+
+    &:hover {
+      opacity: 1;
+
+      .date {
+        color: rgba(39, 39, 39, 1);
+      }
+    }
   }
 
   .portfolio-btn {

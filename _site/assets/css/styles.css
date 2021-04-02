@@ -29,7 +29,7 @@ h3 { font-size: 16px; color: #333; }
 
 .button:hover { background: #0b0c10; color: #e2ddd4; }
 
-.tag { border-radius: 5px; background: #1b2734; padding: 4px 6px; margin-right: 6px; }
+.tag { border-radius: 5px; margin-right: .8rem; font-weight: 600; font-size: .8rem; }
 
 .loaded { transition: all .3s ease; opacity: 1; }
 
@@ -69,15 +69,49 @@ h3 { font-size: 16px; color: #333; }
 
 .project .links .button:hover { border: 1px solid #f2994b; color: #fff; }
 
-.home { height: 100vh; position: relative; }
+.home { height: 100vh; position: relative; display: flex; flex-direction: row; justify-content: space-between; }
 
 .home h1 { color: #e2ddd4; font-size: 3.5em; margin: 10px 0; }
 
-.home main { position: relative; max-width: 500px; margin-left: 15%; margin-top: 15%; z-index: 1; }
+.home .main { flex: 3; }
+
+.home aside { flex: 2; overflow-y: scroll; }
+
+.home .top-bar { width: 100vw; height: 15px; position: absolute; background: #000; z-index: 10; box-shadow: 0 1.4px 2.2px rgba(0, 0, 0, 0.281), 0 3.3px 5.3px rgba(0, 0, 0, 0.404), 0 6.3px 10px rgba(0, 0, 0, 0.5), 0 11.2px 17.9px rgba(0, 0, 0, 0.596), 0 20.9px 33.4px rgba(0, 0, 0, 0.719), 0 50px 80px black; }
+
+.home .bio { color: #aaa; margin: 10%; max-width: 600px; }
 
 .home .name { color: #8595a5; font-size: 2em; }
 
-.home .controls { margin-top: 38px; }
+.home .controls { margin: 38px 10%; }
+
+.home .controls .btn { transition: all .15s ease; display: flex; flex-direction: row; align-items: center; margin: 20px 0; }
+
+.home .controls .btn i { width: 25px; height: 25px; background-size: contain; }
+
+.home .controls .btn span { color: #eee; margin-left: 16px; transition: inherit; }
+
+.home .controls .btn:hover span { color: #f2bf80; margin-left: 22px; }
+
+.home .controls .github-icon { background-image: url("/assets/icons/github-icon.png"); }
+
+.home .controls .linkedin-icon { background-image: url("/assets/icons/linkedin-icon.png"); }
+
+.home .projects { margin-top: 10%; }
+
+.home .project-card { background: #1e1e1e; color: #eee; margin-bottom: 10px; min-height: 160px; position: relative; transition: all .15s ease; opacity: .7; width: 100%; display: flex; flex-direction: column; justify-content: center; }
+
+.home .project-card .body { margin: 15px 0 15px 30px; display: flex; position: absolute; flex-direction: column; justify-content: space-between; z-index: 5; }
+
+.home .project-card .title { font-size: 2rem; margin: 12px 0; }
+
+.home .project-card .summary { font-size: 1rem; margin: 0; color: #999; }
+
+.home .project-card .date { color: #1e1e1e; font-size: 8rem; font-weight: 600; margin: 0 6px; position: absolute; right: 0; top: 0; z-index: 0; }
+
+.home .project-card:hover { opacity: 1; }
+
+.home .project-card:hover .date { color: #272727; }
 
 .home .portfolio-btn { margin-right: 6px; background: #f2bf80; color: #29445b; }
 
@@ -92,46 +126,6 @@ h3 { font-size: 16px; color: #333; }
 .home .portrait .scrim { position: absolute; content: ''; background: rgba(0, 0, 0, 0.5); width: inherit; height: inherit; }
 
 .home .portrait img { margin-top: 15%; position: absolute; height: 70%; z-index: -1; filter: grayscale(0.2) blur(1px) opacity(0.7); }
-
-.projects h1 { color: #e2ddd4; font-size: 3.3rem; margin-bottom: 42px; }
-
-.projects main { display: flex; flex-direction: column; align-items: center; margin: 22px 0; }
-
-.projects .project-card { border-left: 3px solid #29445b; border-radius: 3px; color: #e2ddd4; margin: 16px 0; padding-left: 18px; width: 700px; }
-
-.projects .project-card:hover .date { color: #e2ddd4; }
-
-.projects .project-card:hover .title { color: #f2bf80; }
-
-.projects .head { align-items: center; display: flex; justify-content: space-between; }
-
-.projects .title { color: #e2ddd4; font-size: 2.3rem; flex: 3 0 auto; }
-
-.projects .bracket { position: relative; top: .2rem; font-size: 1.8rem; color: #29445b; }
-
-.projects .tags .swift { background: #2a5b40; }
-
-.projects .tags .cpp { background: #2a455b; }
-
-.projects .tags .csharp { background: #2a345b; }
-
-.projects .tags .python { background: #2a555b; }
-
-.projects .tags .html { background: #402a5b; }
-
-.projects .tags .javascript { background: #502a5b; }
-
-.projects .tags .react { background: #5b2a55; }
-
-.projects .tags .unity { background: #2a5b50; }
-
-.projects .tags .machine-learning { background: #345b2a; }
-
-.projects .body { display: flex; align-items: flex-start; justify-content: space-between; }
-
-.projects .summary { color: #bbb; }
-
-.projects .date { font-size: 4rem; margin-left: 16px; font-family: 'Montserrat', sans-serif; font-weight: 600; color: #1b2734; transition: all .2s ease; }
 
 /* Includes */
 .navigation { display: flex; justify-content: flex-end; }

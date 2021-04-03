@@ -14,9 +14,7 @@ links:
 ---
 ## Breakout is a game made with the Unity engine. 
 
-The game was created with a three-person team. 
-
-The game's AI was trained to play using machine learning through the ML-Agents library, which provides an interface between Unity and Tensorflow.
+The game was created with a three-person team over the course of two months. The AI was trained to play using machine learning through the ML-Agents library, which provides an interface between Unity and Tensorflow.
 
 {% include video-card.html 
     src="/assets/videos/breakout_title.mp4"

@@ -63,13 +63,21 @@ h3 { font-size: 16px; color: #333; }
 
 .project img { max-width: 600px; max-height: 600px; }
 
-.project h1 { color: #f2bf80; font-size: 3.5rem; }
+.project h1 { color: #ccc; font-size: 3.5rem; }
 
 .project main { align-items: center; color: #e2ddd4; display: flex; flex-direction: column; justify-content: center; margin-top: 22px; }
 
 .project .title { width: 80vw; flex: 3 0 auto; }
 
 .project .content { width: 80vw; }
+
+.project .control { width: 80vw; margin-bottom: 16px; }
+
+.project .control span { font-size: 1.1rem; font-weight: 600; margin-right: 6px; color: #eee; transition: all .15s ease; }
+
+.project .control a:hover span { color: #f2bf80; margin-right: 14px; }
+
+.project .control .btn { padding: 10px; }
 
 .project .links { width: 80vw; margin: 42px 0; }
 

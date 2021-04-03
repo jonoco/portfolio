@@ -9,7 +9,7 @@
   }
 
   h1 {
-    color: $accent-a;
+    color: #ccc;
     font-size: 3.5rem;
   }
 
@@ -29,6 +29,30 @@
 
   .content {
     width: 80vw;
+  }
+
+  .control {
+    width: 80vw;
+    margin-bottom: 16px;
+
+    span {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-right: 6px;
+      color: #eee;
+      transition: all .15s ease;
+    }
+
+    a:hover {
+      span {
+        color: $accent-a;
+        margin-right: 14px;
+      }
+    }
+
+    .btn {
+      padding: 10px;
+    }
   }
 
   .links {

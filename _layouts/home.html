@@ -28,12 +28,11 @@
         </a>
       </div> <!-- controls -->
     </main>
-    <aside>
+    <aside id="scrollbar">
       <!-- scroll list of projects -->
       <div class="projects">
         {% assign projects = site.projects | where: "publish", true | sort: "date" | reverse %}
         {% for project in projects %}
-        <div class="project">
           <a href="{{ project.url }}">
             <div class="project-card">
               <p class="date">{{ project.date | date: "%Y" }}</p>
@@ -51,7 +50,6 @@
 
             </div> <!-- project-card -->
           </a>
-        </div>
         {% endfor %}
       </div>
     </aside>

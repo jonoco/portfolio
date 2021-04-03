@@ -1,7 +1,7 @@
 .project {
   height: 100vh;
   overflow-y: scroll;
-  @include scrollbars(12px, #555, $color-b)
+  @include scrollbars(12px, #555, $color-b);
 
   img {
     max-width: 600px;

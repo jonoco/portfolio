@@ -97,9 +97,9 @@ h3 { font-size: 16px; color: #333; }
 
 .home .controls .linkedin-icon { background-image: url("/assets/icons/linkedin-icon.png"); }
 
-.home .projects { margin-top: 10%; }
+.home .projects { margin-top: 10%; display: flex; flex-direction: column; }
 
-.home .project-card { background: #1e1e1e; color: #eee; margin-bottom: 10px; min-height: 160px; position: relative; transition: all .15s ease; opacity: .7; width: 100%; display: flex; flex-direction: column; justify-content: center; }
+.home .project-card { background: #1e1e1e; color: #eee; margin-bottom: 10px; min-height: 160px; position: relative; opacity: .7; width: 90%; margin-left: 10%; display: flex; flex-direction: column; justify-content: center; transition: all .2s ease; }
 
 .home .project-card .body { margin: 15px 0 15px 30px; display: flex; position: absolute; flex-direction: column; justify-content: space-between; z-index: 5; }
 
@@ -109,7 +109,7 @@ h3 { font-size: 16px; color: #333; }
 
 .home .project-card .date { color: #1e1e1e; font-size: 8rem; font-weight: 600; margin: 0 6px; position: absolute; right: 0; top: 0; z-index: 0; transition: all .15s ease; }
 
-.home .project-card:hover { opacity: 1; }
+.home .project-card:hover { opacity: 1; margin-left: 0; width: 100%; }
 
 .home .project-card:hover .title { color: #f2bf80; }
 
@@ -129,7 +129,7 @@ h3 { font-size: 16px; color: #333; }
 
 .home .portrait img { margin-top: 15%; position: absolute; height: 70%; z-index: -1; filter: grayscale(0.2) blur(1px) opacity(0.7); }
 
-@media (max-width: 800px) { .home { flex-direction: column; } .home aside { flex: 2; overflow-y: visible; } }
+@media (max-width: 800px) { .home { flex-direction: column; } .home aside { flex: 2; overflow-y: visible; } .home .project-card { margin-left: 0; width: 100%; } }
 
 /* Includes */
 .navigation { display: flex; justify-content: flex-end; }

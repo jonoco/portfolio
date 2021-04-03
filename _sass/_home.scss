@@ -90,6 +90,8 @@
 
   .projects {
     margin-top: 10%;
+    display: flex;
+    flex-direction: column;
   }
 
   .project-card {
@@ -98,12 +100,14 @@
     margin-bottom: 10px;
     min-height: 160px;
     position: relative;
-    transition: all .15s ease;
+    // transition: all .15s ease;
     opacity: .7;
-    width: 100%;
+    width: 90%;
+    margin-left: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: all .2s ease;
 
     .body {
       margin: 15px 0 15px 30px;
@@ -144,10 +148,13 @@
 
     &:hover {
       opacity: 1;
+      margin-left: 0;
+      width: 100%;
 
       .title {
         color: $accent-a;
       }
+
       .date {
         color: rgba(39, 39, 39, 1);
       }
@@ -211,6 +218,11 @@
     aside {
       flex: 2;
       overflow-y: visible;
+    }
+
+    .project-card {
+      margin-left: 0;
+      width: 100%;
     }
   }
 }

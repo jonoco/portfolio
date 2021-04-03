@@ -7,7 +7,7 @@
   margin: 32px 0 48px 0;
 
   video {
-    max-width: 600px;
+    width: 600px;
     max-height: 600px;
   }
 
@@ -27,5 +27,9 @@
   .video-card {
     flex-direction: column;
     margin: 0;
+
+    video {
+      width: 100vw;
+    }
   }
 }

@@ -32,14 +32,13 @@
     margin: 42px 0;
 
     .button {
-      border: 1px solid $color-a;
-      background: $color-e;
-      color: #ccc;
+      background: #333;
+      color: #ddd;
       margin-right: 6px;
 
       &:hover {
-        border: 1px solid $accent-b;
-        color: #fff;
+        background: #ddd;
+        color: #111;
       }
     }
   }

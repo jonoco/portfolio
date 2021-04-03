@@ -6,12 +6,12 @@
   max-width: 80vw;
   margin: 32px 0 48px 0;
 
-  img {
-    max-width: 600px;
-    max-height: 600px;
+  .image {
+    flex: 2;
   }
 
   .summary {
+    flex: 1;
     border-bottom: 1px solid #333;
     border-left: 1px solid #333;
     display: flex;
@@ -19,7 +19,6 @@
     justify-content: center;
     margin-left: 22px;
     padding: 20px;
-    width: 500px;
   }
 }
 
@@ -27,5 +26,11 @@
   .image-card {
     flex-direction: column;
     margin: 0;
+
+    .image {
+      img {
+        width: 100vw;
+      }
+    }
   }
 }

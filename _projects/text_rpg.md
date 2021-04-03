@@ -15,7 +15,7 @@ links:
 {% include image-card.html 
     src="/assets/images/text-rpg_0.png"
     alt="text-rpg_0" 
-    summary="The game map is created using a heightmap, defining a variety of land types, such as fields, mountains, and rivers." 
+    summary="The game map is created procedurally using a heightmap, allowing different strata to be defined at height ranges to create a variety of natural land types, such as fields, mountains, and rivers." 
 %}
 
 {% include image-card.html 

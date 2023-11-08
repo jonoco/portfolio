@@ -23,5 +23,5 @@ I contributed to the Java backend and React frontend of this project, and helped
 {% include image-card.html 
     src="/assets/images/pickem_1.png"
     alt="pickem" 
-    summary=Predicted winners are selected for each match."
+    summary="Predicted winners are selected for each match."
 %}

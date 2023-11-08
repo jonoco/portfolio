@@ -1,0 +1,157 @@
+basics:
+  url: "https://joshuacox.dev"
+  summary:
+    Dedicated full-stack developer with a meticulous approach to every project,
+    overseeing it from inception to successful deployment.
+  profiles:
+    - network: LinkedIn
+      url: https://www.linkedin.com/in/jonoco/
+      username: jonoco
+    - network: Github
+      url: https://github.com/jonoco
+      username: jonoco
+education:
+  - institution: Oregon State University
+    area: Computer Science
+    studyType: Bachelor
+    courses:
+    startDate: "2019-09-28"
+    endDate: "2021-06-11"
+    score:
+  - institution: University of California, Los Angeles
+    area: Environmental Science
+    studyType: Bachelor
+    courses:
+    startDate: "2011-09-01"
+    endDate: "2013-05-01"
+    score:
+interests:
+languages:
+projects:
+  - name: Pick'Em
+    startDate: "2021-07-26"
+    endDate: "2021-10-25"
+    description: A web app for creating and managing pick'em leagues for League of Legends tournaments
+    highlights:
+      - Contributed to Java backend and React frontend
+      - Helped integrate with a variety of Riot Games proprietary APIs
+    url: https://pickem.lolesports.com/
+    tools:
+      - Java
+      - React
+      - AWS
+  - name: Champions Queue
+    startDate: "2021-12-01"
+    endDate: "2022-01-20"
+    description: Stats tracking web app for League of Legends tournaments
+    highlights:
+      - Planned and implemented Python backend with AWS Lambda
+      - Contributed to React frontend with Gatsby
+    url: https://championsqueue.lolesports.com/
+    tools:
+      - Python
+      - React
+      - AWS
+  - name: MaverickRE
+    startDate: "2022-02-22"
+    endDate: "2023-11-01"
+    description: Real estate lead management platform
+    highlights:
+      - Worked on improving performance and reliability of Django backend
+      - Created tooling to improve operations and simplify maintenance
+      - Rebuilt ETL pipeline to fix deadlocks and improve performance
+    url: https://www.maverickre.com/
+    tools:
+      - React
+      - Django
+      - AWS
+  - name: Clara For Daters
+    startDate: "2022-12-09"
+    endDate: "2023-03-15"
+    description: Date journaling iOS app
+    highlights:
+      - Built app frontend with React Native and Typescript
+      - Collaborated with designer using Figma to create the UI
+    url: https://apps.apple.com/us/app/clara-for-daters/id1667355360
+    tools:
+      - React Native
+      - Typescript
+  - name: Gether.AI
+    startDate: "2023-06-15"
+    endDate: "2023-11-01"
+    description: AI collaborative chatroom
+    highlights:
+      - Built with Next.js and Typescript
+    url: https://gether.ai/
+    tools:
+      - Next.js
+      - Typescript
+references:
+skills:
+  frontend:
+    - keywords:
+      level: Intermediate
+      name: Typescript
+    - keywords:
+      level: Advanced
+      name: Javascript
+    - keywords:
+      level: Advanced
+      name: React
+    - keywords:
+      level: Intermediate
+      name: React Native
+    - keywords:
+      level: Intermediate
+      name: Next.js
+  backend:
+    - keywords:
+      level: Advanced
+      name: Python
+    - keywords:
+      level: Beginner
+      name: Java
+  tools:
+    - keywords:
+      level: Intermediate
+      name: Linux
+    - keywords:
+      level: Intermediate
+      name: Docker
+    - keywords:
+      level: Intermediate
+      name: AWS
+  systems:
+    - keywords:
+      level: Intermediate
+      name: C
+    - keywords:
+      level: Beginner
+      name: C++
+    - keywords:
+      level: Beginner
+      name: Rust 
+volunteer:
+work:
+  - name: TechEmpower
+    position: Software Programmer
+    url: https://techempower.com/
+    startDate: "2021-07-01"
+    endDate: "2023-11-01"
+    summary: Worked on a variety of projects, improving established systems
+      and building new ones from the ground up.
+    highlights:
+      - Gained experience with a variety of languages, frameworks, and tools
+      - Helped plan and implement various successful projects
+  - name: Oregon State University
+    position: Learning Assistant
+    url: https://oregonstate.edu/
+    stateDate: "2020-01-06"
+    endDate: "2021-06-01"
+    summary: Graded exams and MASM based projects,
+      assisted students who had trouble with the course material
+    highlights:
+      - Graded over 1300 programming assignments and provided tutoring for
+        the Computer Architecture & Assembly course
+      - Created course material, including a style guide,
+        Assembly library documentation, and grading tools

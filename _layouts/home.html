@@ -42,10 +42,17 @@
               <p class="date">{{ project.date | date: "%Y" }}</p>
               <div class="body">
                 <div class="tags">
-                {% for tag in project.tags %}
-                  {% assign tagClass = tag | replace: "+", "p" | replace: "#", "sharp" %}
-                  <span class="tag {{ tagClass }}">{{ tag | upcase }} </span>
-                {% endfor %}
+                  <div>
+                    {% for tag in project.tags %}
+                      {% assign tagClass = tag | replace: "+", "p" | replace: "#", "sharp" %}
+                      <span class="tag {{ tagClass }}">{{ tag | upcase }} </span>
+                    {% endfor %}
+                  </div>
+                  <div>
+                    {% for category in project.categories %}
+                      <span class="category {{ category }}">{{ category | upcase }} </span>
+                    {% endfor %}
+                  </div>
                 </div> <!-- tags -->
 
                 <p class="title">{{ project.title }}</p>

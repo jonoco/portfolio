@@ -4,13 +4,13 @@ title:  Hay Love
 date:   2020-07-05 00:00:00 -0700
 publish: true
 categories: 
-tags: html horses
+tags: nextjs horses
 summary: Horse dating website.
 links:
     - name: Github
       link: https://github.com/jonoco/haylove
-    - name: Hosted
-      link: http://haylove.herokuapp.com/
+    - name: Live
+      link: https://haylove.vercel.app/
 ---
 ## A satirical dating website for horses.
 

@@ -3,7 +3,7 @@ layout: project
 title:  Hay Love
 date:   2020-07-05 00:00:00 -0700
 publish: true
-categories: 
+categories: personal
 tags: nextjs horses
 summary: Horse dating website.
 links:

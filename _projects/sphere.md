@@ -3,7 +3,7 @@ layout: project
 title: Sphere
 date: 2015-07-20 00:00:00 -0700
 publish: true
-categories: 
+categories: personal
 tags: swift ios
 summary: iOS game written in Swift
 links: 

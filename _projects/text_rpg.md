@@ -3,7 +3,7 @@ layout: project
 title: Text RPG
 date: 2020-01-20 00:00:00 -0700
 publish: true
-categories: 
+categories: personal
 tags: node javascript
 summary: Console text-based RPG engine
 links:

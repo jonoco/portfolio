@@ -3,14 +3,12 @@ layout: project
 title:  fumblr
 date:   2016-10-25 00:00:00 -0700
 publish: true
-categories: 
+categories: personal
 tags: python flask sqlalchemy
 summary: fumblr is a social media site
 links: 
     - name: Github
       link: https://github.com/jonoco/fumblr
-    - name: Hosted
-      link: https://fumblr.herokuapp.com/
 ---
 ## fumblr is a social media site based on tumblr.
 

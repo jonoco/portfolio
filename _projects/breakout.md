@@ -3,13 +3,13 @@ layout: project
 title:  Breakout
 date:   2021-03-25 00:00:00 -0700
 publish: true
-categories: 
+categories: school
 tags: c# unity machine-learning
 summary: Unity game
 links: 
     - name: Github
       link: https://github.com/jonoco/ml-breakout
-    - name: Hosted
+    - name: Live
       link: https://jonoco.github.io/ml-breakout/
 ---
 ## Breakout is a game made with the Unity engine. 

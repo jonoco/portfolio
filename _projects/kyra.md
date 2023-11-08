@@ -3,13 +3,13 @@ layout: project
 title:  Kyra
 date:   2015-07-30 00:00:00 -0700
 publish: true
-categories: 
+categories: personal
 tags: javascript phaser
 summary: A Kyrandia remake using the Phaser framework.
 links: 
     - name: Github
       link: https://github.com/jonoco/Kyra
-    - name: Hosted
+    - name: Live
       link: http://jonoco.github.io/Kyra/
 ---
 ## Kyrandia is a point-and-click adventure game made by Westwood Studios in 1992.

@@ -3,13 +3,13 @@ layout: project
 title:  Concentration
 date:   2018-04-25 00:00:00 -0700
 publish: true
-categories: 
+categories: personal
 tags: react
 summary: Card matching game
 links: 
     - name: Github
       link: https://github.com/jonoco/concentration
-    - name: Hosted
+    - name: Live
       link: https://congame.surge.sh/
 ---
 ## Concentration is a card matching game built with react.

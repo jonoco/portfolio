@@ -3,7 +3,7 @@ layout: project
 title: Bracketeer
 date: 2014-04-01 00:00:00 -0700
 publish: true
-categories: 
+categories: work
 tags: python
 summary: Bracketing manager
 links: 
